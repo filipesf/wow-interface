@@ -1,0 +1,82 @@
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast Demonic Circle: Teleport
+END
+VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast Fear
+END
+VER 3 010000000000000D " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast Soulburn
+/cast Soul Swap
+END
+VER 3 0100000000000012 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [pet:Shivarra]Mesmerize;[pet:Wrathguard]Axe Toss;[pet:Observer]Optical Blast;[pet:Fel Imp]Sear Magic;[nodead]Command Demon
+/cast Command Demon
+END
+VER 3 0100000000000010 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/stopcasting
+/cast Dark Soul: Knowledge
+/cast Unending Resolve
+/use 13
+END
+VER 3 010000000000000B " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast Dark Soul: Misery
+/cast Unending Resolve
+/use 13
+END
+VER 3 0100000000000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Unending Resolve
+/cast Dark Regeneration
+/cast Sacrificial Pact
+/cast Health Funnel
+/use Healthstone
+END
+VER 3 010000000000000F "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/clearfocus [@focus,noharm][@focus,dead]
+/focus [@mouseover,harm,nodead][@focus,noharm][@focus,dead]
+/cast Soulburn
+/cast [@focus,harm] Soul Swap
+END
+VER 3 010000000000000C "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip Soul Swap
+/stopcasting
+/clearfocus [@focus,noharm][@focus,dead]
+/focus [@mouseover,harm,nodead][@focus,noharm][@focus,dead]
+/cast [@focus,harm] Soul Swap
+END
+VER 3 010000000000000E "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/clearfocus [@focus,noharm][@focus,dead]
+/focus [@mouseover,harm,nodead][@focus,noharm][@focus,dead]
+/cast [@focus,harm] Haunt
+END
+VER 3 0100000000000011 "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip Command Demon
+/cast [pet:Shivarra,@focus]Mesmerize;[pet:Wrathguard,@focus]Axe Toss;[pet:Observer,@focus]Optical Blast;[pet:Fel Imp]Sear Magic;
+END
+VER 3 0100000000000005 "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip Healthstone
+/stopcasting
+/clearfocus [@focus,noharm][@focus,dead]
+/focus [@mouseover,harm,nodead][@focus,noharm][@focus,dead]
+/cast [@focus,harm] Fear
+END
+VER 3 0100000000000006 "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip Command Demon
+/clearfocus [@focus,noharm][@focus,dead]
+/focus [@mouseover,harm,nodead][@focus,noharm][@focus,dead]
+/cast [@focus,harm] Command Demon
+END

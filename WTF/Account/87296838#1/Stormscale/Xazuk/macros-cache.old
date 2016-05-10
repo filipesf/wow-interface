@@ -1,0 +1,94 @@
+VER 3 010000000000004B " " "INV_MISC_QUESTIONMARK"
+#showtooltip Hex
+/stopcasting
+/cast Hex
+END
+VER 3 0100000000000048 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast Grounding Totem
+END
+VER 3 010000000000004A " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/stopcasting
+/cast Water Walking
+/cast Hearthsteed
+END
+VER 3 010000000000002D " " "INV_MISC_QUESTIONMARK"
+#showtooltip Wind Shear
+/stopcasting
+/cast [@target,exists] Wind Shear;
+/cast [@target,exists] Purge;
+END
+VER 3 010000000000004E " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Magma Totem(Fire Totem);Searing Totem(Fire Totem)
+END
+VER 3 010000000000004F " " "INV_MISC_QUESTIONMARK"
+#showtooltip 13
+/stopcasting
+/cast Ghost Wolf
+END
+VER 3 010000000000003A " " "237580"
+#showtooltip
+/stopcasting
+/cast Astral Shift
+/cast Shamanistic Rage;
+/use Healthstone;
+/use Horde Battle Standard;
+/cast Healing Stream Totem(Water Totem)
+/use 13
+END
+VER 3 0100000000000045 "dispell" "INV_MISC_QUESTIONMARK"
+#showtooltip Cleanse Spirit
+/cast [@mouseover,help] Cleanse Spirit;[@mouseover,harm][harm,nodead] Purge;[help,nodead] Cleanse Spirit; [@target,harm,nodead] Purge
+END
+VER 3 0100000000000021 "ENH" "INV_MISC_QUESTIONMARK"
+#showtooltip Ascendance
+/cast Ascendance
+/cast Blood Fury
+/cast Bloodlust
+/cast Spiritwalker's Grace
+/cast Shamanistic Rage
+/cast Feral Spirit
+/cast Ancestral Guidance
+END
+VER 3 0100000000000037 "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip Purge
+/stopcasting
+/clearfocus [@focus,noharm][@focus,dead]
+/focus [@mouseover,harm,nodead][@focus,noharm][@focus,dead]
+/cast [@focus,harm] Wind Shear
+/cast [@focus,harm] Purge
+END
+VER 3 0100000000000047 "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip Purge
+/stopcasting
+/clearfocus [@focus,noharm][@focus,dead]
+/focus [@mouseover,harm,nodead][@focus,noharm][@focus,dead]
+/cast [@focus,harm] Purge
+END
+VER 3 0100000000000036 "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip Healthstone
+/stopcasting
+/clearfocus [@focus,noharm][@focus,dead]
+/focus [@mouseover,harm,nodead][@focus,noharm][@focus,dead]
+/cast [@focus,harm] Hex;
+END
+VER 3 0100000000000030 "player" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@player] Healing Surge;
+END
+VER 3 010000000000004D "purge" "INV_MISC_QUESTIONMARK"
+#showtooltip Blood Fury(Racial)
+/cast Purge
+END
+VER 3 0100000000000043 "RST" "INV_MISC_QUESTIONMARK"
+#showtooltip Ascendance
+/stopcasting
+/cast Ascendance
+/cast Blood Fury
+/cast Bloodlust
+/cast Spiritwalker's Grace
+/use 13
+END

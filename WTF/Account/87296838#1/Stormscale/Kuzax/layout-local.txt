@@ -1,0 +1,8 @@
+Version: 1
+Frame: PetFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -165
+Y: -160
+W: 128
+H: 53

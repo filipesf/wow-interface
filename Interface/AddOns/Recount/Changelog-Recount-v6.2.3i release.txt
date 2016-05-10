@@ -1,0 +1,21 @@
+------------------------------------------------------------------------
+r1362 | resike | 2016-03-08 19:45:52 +0000 (Tue, 08 Mar 2016) | 1 line
+Changed paths:
+   A /tags/v6.2.3i release (from /trunk:1361)
+
+Tagging as v6.2.3i release
+------------------------------------------------------------------------
+r1361 | Resike | 2016-03-08 19:43:35 +0000 (Tue, 08 Mar 2016) | 2 lines
+Changed paths:
+   M /trunk/GUI_Graph.lua
+   M /trunk/GUI_Realtime.lua
+   M /trunk/Recount.lua
+   M /trunk/Recount_Modes.lua
+   M /trunk/Tracker.lua
+   M /trunk/WindowOrder.lua
+   M /trunk/colors.lua
+   M /trunk/deletion.lua
+
+- Fixed some issues with the graphs.
+- Some other minor cleanups.
+------------------------------------------------------------------------

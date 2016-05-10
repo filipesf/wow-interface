@@ -1,0 +1,15 @@
+Version: 1
+Frame: FocusFrame
+FrameLevel: 8
+Anchor: CENTER
+X: -75
+Y: 133
+W: 232
+H: 100
+Frame: PetFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -165
+Y: -160
+W: 128
+H: 53

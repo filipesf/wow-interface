@@ -1,0 +1,10 @@
+VER 3 0000000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip [flyable] Hearthsteed; Dreadsteed
+/stopmacro [flying]
+/cast [nomounted] Hearthsteed
+/cast [nomounted] Dreadsteed
+/dismount [mounted]
+END
+VER 3 0000000000000007 "aFrame" "INV_MISC_QUESTIONMARK"
+/run LoadAddOn("Blizzard_ArenaUI");ArenaEnemyFrames:Show();ArenaEnemyFrame1:Show();ArenaEnemyFrame2:Show();ArenaEnemyFrame3:Show();ArenaEnemyFrame1CastingBar:Show();ArenaEnemyFrame2CastingBar:Show();ArenaEnemyFrame3CastingBar:Show();
+END
